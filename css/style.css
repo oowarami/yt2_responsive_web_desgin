@@ -1,0 +1,262 @@
+*{
+	margin: 8px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #D7D7D7;
+}
+
+/* SERVICES */
+.services {
+  width: auto;
+  min-height: 373px;
+  margin: auto;
+  margin-top: 108px;
+}
+
+.services .line1 div{
+  display: inline-block;
+}
+
+.services .design{
+	width: 510px;
+	height: 177px;
+	margin-right: 5px;
+}
+
+.services .design img{
+	width: 61px;
+	height: 64px;
+}
+
+.services .design h6{
+	font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+	letter-spacing: 18.54%;
+	font-size: 22px;
+	margin-left: 45px;
+	margin-top: -70px;
+}
+
+.services .design p{
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: justify;
+}
+
+.services .development{
+	width: 510px;
+	height: 178px;
+	margin-left: 120px;
+}
+
+.services .development img{
+	width: 68.94px;
+	height: 70px;
+}
+
+.services .development h6{
+	font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+	letter-spacing: 18.54%;
+	font-size: 22px;
+	margin-left: 45px;
+	margin-top: -70px;
+}
+
+.services .development p{
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: justify;
+}
+
+.services .maintenance{
+	width: 487px;
+  height: 182px;
+  margin: auto;
+}
+
+.services .maintenance img{
+	width: 80.21px;
+	height: 64px;
+}
+
+.services .maintenance h6{
+	font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+	letter-spacing: 18.54%;
+	font-size: 22px;
+	margin-left: 50px;
+	margin-top: -60px;
+}
+
+.services .maintenance p{
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: justify;
+}
+
+
+/* Mobile view for services */
+@media screen and (max-width: 1084px) {
+  .services{
+		display: block;
+		width: 100%;
+	}
+	
+	.services .line1 div{
+    display: block;
+    width: 100%;
+	}
+
+	.services .design{
+		margin-left: unset;
+		width: 281px;
+	}
+
+	.services .design h6{
+		font-size: 17px;
+		margin-left: 35px;
+		margin-top: -65px;
+	}
+	
+	.services .design p{
+		font-size: 13px;
+		font-weight: 400;
+		text-align: justify;
+	}
+
+	.services .development{
+		margin-left: unset;
+	}
+
+	.services .development h6{
+		font-size: 17px;
+		margin-left: 40px;
+		margin-top: -65px;
+	}
+	
+	.services .development p{
+		font-size: 13px;
+		font-weight: 400;
+		text-align: justify;
+	}
+
+	.services .maintenance{
+  width: 100%;
+	}
+
+	.services .maintenance h6{
+		font-size: 17px;
+		margin-left: 55px;
+		margin-top: -60px;
+	}
+	
+	.services .maintenance p{
+		font-size: 13px;
+		font-weight: 400;
+		text-align: justify;
+	}
+}
+
+/* SEPARATOR */
+.separatorBlack2{
+	margin-top: 75px;
+	margin-left: 100px;
+	text-align: center;
+}
+
+/* Mobile view for separator */
+@media screen and (max-width: 1084px){
+	.separatorBlack2{
+		margin-left: unset;
+		margin-top: auto;
+	}
+}
+
+/* SKILLS */
+.skills{
+	width: auto;
+  min-height: 373px;
+  margin: auto;
+  margin-top: 108px;
+}
+
+.usingNowText {
+	font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+	font-size: 30px;
+	letter-spacing: 18.54%;
+	margin-left: 245px;
+	padding-top: 50px;
+	/* text-align: left; */
+}
+
+.row1{
+	text-align: center;
+}
+
+.row2{
+	text-align: center;
+}
+
+.sectionHeader2{
+	font-family: "Montserrat", sans-serif;
+	display:inline-block;
+	text-align: center;
+	letter-spacing: 35.54%;
+	border: 8px solid black;
+	padding: 10px;
+	margin-top: 5px;
+	margin-left: 550px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.card {
+	width: 180px;
+  height: 100px;
+  display: inline-block;
+}
+
+.card span {
+	font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+	font-size: 24px;
+	letter-spacing: 13.54%;
+}
+
+/* Mobile view for skills */
+@media screen and (max-width: 1084px){
+	.card {
+		display: block;
+		height: auto;
+	}
+
+	.usingNowText{
+		margin-left: 100px;
+		font-size: 25px;
+	}
+	.row1{
+		margin-left: 100px;
+		padding: auto;
+	}
+
+	.row2{
+		margin-left: 100px;
+		padding: auto;
+	}
+
+	.sectionHeader2{
+		text-align: center;
+		margin-top: auto;
+		margin-left:150px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
