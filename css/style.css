@@ -104,9 +104,14 @@ body {
 
 /* Mobile view for services */
 @media screen and (max-width: 1084px) {
-  .services{
-		display: block;
+  *{
 		width: 100%;
+	}
+	.services{
+		display: block;
+		/* width: 100%; */
+		margin-top: 10px;
+		margin-left: -50px;
 	}
 	
 	.services .line1 div{
@@ -167,8 +172,7 @@ body {
 /* SEPARATOR */
 .separatorBlack2{
 	margin-top: 75px;
-	margin-left: 100px;
-	text-align: center;
+	margin-left: 570px;
 }
 
 /* Mobile view for separator */
@@ -176,6 +180,7 @@ body {
 	.separatorBlack2{
 		margin-left: unset;
 		margin-top: auto;
+		width: 80%;
 	}
 }
 
@@ -184,17 +189,16 @@ body {
 	width: auto;
   min-height: 373px;
   margin: auto;
-  margin-top: 108px;
+  margin-top: 50px;
 }
 
-.usingNowText {
+.usingNowText{
 	font-family: "Montserrat", sans-serif;
   font-weight: 700;
 	font-size: 30px;
 	letter-spacing: 18.54%;
 	margin-left: 245px;
 	padding-top: 50px;
-	/* text-align: left; */
 }
 
 .row1{
@@ -233,30 +237,49 @@ body {
 
 /* Mobile view for skills */
 @media screen and (max-width: 1084px){
-	.card {
-		display: block;
-		height: auto;
+	/* .skills{
+		margin-left: -50px;
+	} */
+	
+	.sectionHeader2{
+		text-align: center;
+		margin-left: 0px;
+		padding: auto;
+		letter-spacing: 43.54%;
+		font-size: 14px;
+	}
+
+	.usingNowDiv{
+		margin-top: 5px;
+		margin-left: -50px;
+		width: 300px;
+		text-wrap: nowrap;
 	}
 
 	.usingNowText{
-		margin-left: 100px;
+		margin-left: 10px;
 		font-size: 25px;
+		letter-spacing: 30%;
 	}
+
 	.row1{
-		margin-left: 100px;
+		margin-left: 15px;
 		padding: auto;
 	}
 
 	.row2{
-		margin-left: 100px;
+		margin-top: -8px;
+		margin-left: 15px;
 		padding: auto;
 	}
+	
+	.card {
+		display: block;
+		height: auto;
+		width: 114.21px;
+	}
 
-	.sectionHeader2{
-		text-align: center;
-		margin-top: auto;
-		margin-left:150px;
-		padding-left: 15px;
-		padding-right: 15px;
+	.card span {
+		font-size: 20px;
 	}
 }
