@@ -172,7 +172,7 @@ body {
 /* SEPARATOR */
 .separatorBlack2{
 	margin-top: 75px;
-	margin-left: 570px;
+	margin-left: 540px;
 }
 
 /* Mobile view for separator */
@@ -197,7 +197,7 @@ body {
   font-weight: 700;
 	font-size: 30px;
 	letter-spacing: 18.54%;
-	margin-left: 245px;
+	margin-left: 240px;
 	padding-top: 50px;
 }
 
@@ -244,22 +244,22 @@ body {
 	.sectionHeader2{
 		text-align: center;
 		margin-left: 0px;
-		padding: auto;
-		letter-spacing: 43.54%;
+		/* padding: auto; */
+		letter-spacing: 53.54%;
 		font-size: 14px;
 	}
 
 	.usingNowDiv{
 		margin-top: 5px;
 		margin-left: -50px;
-		width: 300px;
+		width: 100%;
 		text-wrap: nowrap;
 	}
 
 	.usingNowText{
 		margin-left: 10px;
 		font-size: 25px;
-		letter-spacing: 30%;
+		letter-spacing: 32%;
 	}
 
 	.row1{
